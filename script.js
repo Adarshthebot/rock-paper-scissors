@@ -7,8 +7,7 @@ function gethumanchoice() {
     const choices=prompt("Enter your choice (rock, paper, scissor): ");
     return choices;
 }
-humanscore=0;
-computerscore=0;
+
 function playround(human,computer) {
     if (human === computer){
         console.log("it is a tie");
